@@ -52,4 +52,10 @@ public class Product {
         this.price = price;
     }
 
+    public void print() {
+        System.out.println("Number : " + number);
+        System.out.println("Name : " + name);
+        System.out.println("Quantity : " + quantity);
+        System.out.println("Price : " + price);
+    }
 }

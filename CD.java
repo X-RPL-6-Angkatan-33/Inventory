@@ -43,4 +43,11 @@ public class CD extends Product {
         this.label = label;
     }
 
+    @Override //membuat method yg sama dengan method di superclass
+    public void print() {
+        super.print();
+        System.out.println("Artist : " + artist);
+        System.out.println("Total Song : " + numSong);
+        System.out.println("Label : " + label);
+    }
 }
